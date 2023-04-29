@@ -39,7 +39,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
             ],
             [
-            InlineKeyboardButton("𝅘𝅥𝅯𝙎𝙊𝙐𝙍𝘾𝙀 𝙑𝙀𝙉𝙊𝙈 𝅘𝅥𝅯", url=f"https://t.me/Ve_m1"),
+            InlineKeyboardButton("𝅘𝅥𝅯 𝙀𝙇𝙍𝘼𝙎𝘼𝙈 ‌𝅘𝅥𝅯", url=f"https://t.me/Ve_m1"),
         ]
     ]
 )
@@ -52,10 +52,10 @@ pm_buttons = [
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="• آوُآمِــر آلَتُـشــغــيـلَ •", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="• سورس فينوم •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• ًسًـــوُرًس آلـرًسًـــآمہ •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• جَروُبّ آلـدعًم •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
@@ -74,8 +74,8 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="• سورس فينوم •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• سًـــوُرًس آلـرًسًـــآمہ•", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• جَروُبّ آلـدعًم •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
@@ -105,7 +105,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="• جَروُبّ آلـدعًم •", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_help"),
         InlineKeyboardButton(text="• مسح •", callback_data="close"),
